@@ -36,10 +36,14 @@
             </li>
             <% else %>
             <li>
-              <%= link_to 'Home', root_path, class: 'nav-link text-light' %>
+              <%= link_to(root_path, class:"nav-link text-light") do %>
+                <i class="fas fa-home"></i>Home
+              <% end %>
             </li>
             <li>
-              <%= link_to 'about', about_path, class: 'nav-link text-light' %>
+              <%= link_to(about_path, class:"nav-link text-light") do %>
+                <i class="fas fa-link"></i>About
+              <% end %>
             </li>
             <li>
               <%= link_to "Sign up", new_user_registration_path, class: 'nav-link text-light' %>
