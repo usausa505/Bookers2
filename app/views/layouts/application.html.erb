@@ -27,7 +27,7 @@
             </li>
             <li class="nav-item">
               <%= 'Users' %>
-            </li>\\
+            </li>
             <li class="nav-item">
               <%= 'Books' %>
             </li>
@@ -35,16 +35,16 @@
               <%= link_to "Log out", destroy_user_session_path, method: :delete, class: 'nav-link text-light' %>
             </li>
             <% else %>
-            <a class="nav-item">
+            <li>
               <%= link_to 'Home', root_path, class: 'nav-link text-light' %>
-            </a>
-            <li class="nav-item">
+            </li>
+            <li>
               <%= link_to 'about', about_path, class: 'nav-link text-light' %>
             </li>
-            <li class="nav-item">
+            <li>
               <%= link_to "Sign up", new_user_registration_path, class: 'nav-link text-light' %>
             </li>
-            <li class="nav-item">
+            <li>
               <%= link_to "Log in", new_user_session_path, class: 'nav-link text-light' %>
             </li>
             <% end %>
