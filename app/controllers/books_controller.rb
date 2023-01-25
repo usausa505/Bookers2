@@ -13,7 +13,7 @@ class BooksController < ApplicationController
       @books = Book.all
       render :index
     end
-    
+
   end
 
   def index
@@ -31,7 +31,6 @@ class BooksController < ApplicationController
   end
 
   def edit
-    @user = User.find(params[:id])
     @book = Book.find(params[:id])
   end
 
