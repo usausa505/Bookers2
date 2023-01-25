@@ -6,7 +6,7 @@ class BooksController < ApplicationController
   def create
     @book = Book.new(book_params)
     if @book.save
-      flash[:notice] = "You have updated book successfully."
+      flash[:notice] = "You have created book successfully."
       redirect_to book_path(@book.id)
     end
     
