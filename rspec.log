@@ -289,7 +289,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `user_id=' for #<Book id: nil, title: "l1pds", body: "trq3tnx0dfdh0b5p0uax", created_at: nil, updated_at: nil>[0m
+     [31m  undefined method `user_id=' for #<Book id: nil, title: "2z9h8", body: "17kd7pubqobus096b4k9", created_at: nil, updated_at: nil>[0m
      [31m  Did you mean?  user=[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
@@ -308,7 +308,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `user_id=' for #<Book id: nil, title: "uy99e", body: "jhcd5ef5hfrn3t1guikr", created_at: nil, updated_at: nil>[0m
+     [31m  undefined method `user_id=' for #<Book id: nil, title: "v8xli", body: "9wh8vxdtwcwqt8vea1r7", created_at: nil, updated_at: nil>[0m
      [31m  Did you mean?  user=[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
@@ -327,7 +327,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `user_id=' for #<Book id: nil, title: "p5uf8", body: "n2a5ebvwulusz22qv1mj", created_at: nil, updated_at: nil>[0m
+     [31m  undefined method `user_id=' for #<Book id: nil, title: "bz0qt", body: "63z2sqjcty4mucu2cup9", created_at: nil, updated_at: nil>[0m
      [31m  Did you mean?  user=[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
@@ -346,7 +346,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `user_id=' for #<Book id: nil, title: "iyccy", body: "ix0l2mu7e41478kzp90c", created_at: nil, updated_at: nil>[0m
+     [31m  undefined method `user_id=' for #<Book id: nil, title: "gdbb0", body: "ezigmxo6l03mao41mtry", created_at: nil, updated_at: nil>[0m
      [31m  Did you mean?  user=[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
@@ -3548,7 +3548,7 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-3.1.2/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-Finished in 7.61 seconds (files took 4.68 seconds to load)
+Finished in 12.27 seconds (files took 1.18 seconds to load)
 [31m199 examples, 160 failures[0m
 
 Failed examples:
